@@ -33,4 +33,4 @@ export function updateName(fullName) {
   return { type: 'customer/updateName', payload: fullName };
 }
 
-store.dispatch(createCustomer('John Doe', '1234567890'));
+// store.dispatch(createCustomer('John Doe', '1234567890'));
